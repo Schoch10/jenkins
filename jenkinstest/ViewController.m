@@ -9,14 +9,16 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property (nonatomic, strong) NSString *testString;
 @end
 
 @implementation ViewController
+@synthesize testString = _testString;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.testString = @"fail";
 }
 
 - (void)didReceiveMemoryWarning {

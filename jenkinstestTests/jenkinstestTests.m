@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
+#import "ViewController.h"
 
 @interface jenkinstestTests : XCTestCase
 
@@ -27,7 +28,7 @@
 
 - (void)testExample {
     // This is an example of a functional test case.
-    XCTAssert(YES, @"Pass");
+    XCTAssert(YES, @"Fail");
 }
 
 - (void)testPerformanceExample {
