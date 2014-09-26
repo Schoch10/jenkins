@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.testString = @"succeed 2";
+    self.testString = @"succeed 3";
 }
 
 - (void)didReceiveMemoryWarning {
